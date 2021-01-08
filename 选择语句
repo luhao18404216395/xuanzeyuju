@@ -1,0 +1,17 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+int main()
+{
+	int input = 0;
+	printf("你会继续敲代码吗？（选择1or0）；>");
+	scanf("%d", &input);
+	if (input == 1)
+	{
+		printf("你会考上研究生。\n");
+	}
+	else
+	{
+		printf("回家继续考\n");
+	}
+	return 0;
+}
